@@ -1,0 +1,8 @@
+green   
+red     
+blue    
+
+
+secondLevel 함수는 내부에서 let color = 'green';을 선언하므로, 이 함수에서 참조되는 color는 'green'다.
+firstLevel 함수는 내부에서 let color = 'red';를 선언하므로, 이 함수 내에서 color를 참조하면 'red'다.
+전역에서는 color = 'blue';이 선언되었으므로, 전역에서 참조되는 color는 'blue'다.

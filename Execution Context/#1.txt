@@ -1,0 +1,3 @@
+ReferenceError: Cannot access 'message' before initialization
+
+위 코드에서 let message가 초기화되기 전에 console.log(message)가 실행되므로 ReferenceError가 발생한한다.
